@@ -1,0 +1,12 @@
+{
+	"locationInfo" : {
+		"name" : "LinuxCon",
+		"latitude" : 37.3,
+		"longitude" : -121.99
+	},
+
+	"distInfo" : {
+		"distActuatorToOrigin" : 3.5
+	}
+
+}
