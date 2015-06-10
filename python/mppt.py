@@ -38,7 +38,7 @@ class Mppt:
 	def begin(self):
 
 		if self.targetVolts == 0:
-			print "please set target volts"
+			print ("please set target volts")
 
 		self.output.begin()
 

@@ -91,8 +91,8 @@ class Ina219:
 		self.i2c.address(self.address)
 		byte1 = self.i2c.readReg(reg)
 		byte2 = self.i2c.readReg(reg)
-		print "byte1:", byte1
-		print "byte2:", byte2
+		print ("byte1:", byte1)
+		print ("byte2:", byte2)
 		value = (( byte1 << 8) | byte2)
 		return value
 
